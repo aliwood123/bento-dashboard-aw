@@ -243,4 +243,19 @@ const mauiFunFacts = [
   const feature5 = document.querySelector(".feature-5");
   
   feature5.textContent = mauiFunFacts[randFunFacts];
-  
+
+//   Days of Meditation Streak
+
+const startDate = "2025-01-01";
+const daysOfMeditation = getDayStreak(startDate);
+console.log( daysOfMeditation );
+
+// Get HTML element
+const elem = document.querySelector('.streakOfDays');
+
+// Set to HTML element
+elem.textContent = daysOfMeditation;
+elem.setAttribute("datetime", daysOfMeditation);
+
+
+
