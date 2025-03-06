@@ -36,7 +36,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .bento-item {
@@ -63,7 +63,7 @@ body {
 .feature-1 {
   grid-column: span 2;
   grid-row: span 6;
-  background: rgba(253, 242, 248, 0.7);
+  background: rgba(173, 216, 230, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,25 +74,25 @@ body {
 .feature-2 {
   grid-column: 3 / 5;
   grid-row: 3 / 5;
-  background: rgba(255, 192, 203, 0.7);
+  background: rgba(255, 127, 80, 0.7);
 }
 
 .feature-3 {
   grid-row: span 2;
   grid-column: span 2;
-  background: rgba(144, 238, 144, 0.7);
+  background: rgba(218, 112, 214, 0.7);
 }
 
 .feature-4 {
   grid-row: span 4;
   grid-column: span 2;
-  background: rgba(173, 216, 230, 0.7);
+  background: rgba(140, 217, 158, 0.7);
 }
 
 .feature-5 {
   grid-column: span 4;
   grid-row: span 2;
-  background: linear-gradient(180deg, rgba(244, 225, 178, 0.8) 0%, rgba(196, 161, 93, 0.8) 100%);
+  background: rgba(244, 225, 178, 0.8)
 }
 
 .time {
