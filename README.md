@@ -7,14 +7,12 @@
 * Apply CSS styling to dynamic data
 * Explore pro/cons of JS libraries, plugins, frameworks, etc.
 
-## Citations
-* List your citations here
-
-## How?
-* Simply click on "Use this template" button to create a new repository
+## About
+* Visiting Maui is one of the most peaceful times of the year for me. I wanted my dashboard to evoke the calming rhythm of the ocean waves while reflecting some of the colors of the tropical flora you'll find on the island. 
 
 ## Citations
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
-* [Font Share](https://www.fontshare.com/)
+* [Google Fonts](https://fonts.google.com/selection?query=quicksand) Font family: Quicksand
+* [Wave Animation](https://codepen.io/osublake/pen/OpoJgw) Designer: Blake Bowen
 
 
