@@ -14,4 +14,4 @@
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Google Fonts](https://fonts.google.com/selection?query=quicksand) Font family: Quicksand
 * [Wave Animation](https://codepen.io/osublake/pen/OpoJgw) Designer: Blake Bowen
-*[Lucide](https://lucide.dev/icons/tree-palm) Favicon: palmtree
+* [Lucide](https://lucide.dev/icons/tree-palm) Favicon: palmtree
