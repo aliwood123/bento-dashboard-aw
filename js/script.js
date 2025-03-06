@@ -250,10 +250,9 @@ const startDate = "2025-01-01";
 const daysOfMeditation = getDayStreak(startDate);
 console.log( daysOfMeditation );
 
-// Get HTML element
 const elem = document.querySelector('.streakOfDays');
 
-// Set to HTML element
+
 elem.textContent = daysOfMeditation;
 elem.setAttribute("datetime", daysOfMeditation);
 
