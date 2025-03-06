@@ -1,6 +1,3 @@
-// website loaded?
-console.log("👍 Okay");
-
 // wave animation
 
 let canvas = document.getElementById("canvas");
