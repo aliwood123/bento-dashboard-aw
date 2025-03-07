@@ -15,3 +15,6 @@
 * [Adobe Fonts](https://fonts.adobe.com/fonts/kon-tiki-aloha-jf) Font family: Kon Tiki Aloha JF
 * [Wave Animation](https://codepen.io/osublake/pen/OpoJgw) Designer: Blake Bowen
 * [Lucide](https://lucide.dev/icons/tree-palm) Favicon: palmtree
+
+## Questions for Colin:
+* Why is the javascript for "days until" not working? I have commented it out for the time being so it doesn't break other script.  
