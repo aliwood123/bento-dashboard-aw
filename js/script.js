@@ -217,34 +217,18 @@ function resizeCanvas() {
   
   context.scale(resolution, resolution);
 }
-// Maui fun facts
 
-const mauiFunFacts = [
-    "Maui is the second largest Hawaiian island with an area of 727 square miles.",
-    "Haleakalā, Maui's highest peak, stands at 10,023 feet above sea level.",
-    "Maui was named after the demigod Māui in Hawaiian mythology.",
-    "The Road to Hana features over 600 curves and 50+ one-lane bridges.",
-    "Maui is home to more than 30 beaches with white, black, and red sand.",
-    "The Banyan Tree in Lahaina was planted in 1873 and covers nearly an acre.",
-    "Molokini is a crescent-shaped, partially submerged volcanic crater off Maui's shore.",
-    "Maui is visible from the Big Island, Molokai, Lanai, and Kahoolawe.",
-    "The island has over 80 beaches stretching more than 30 miles.",
-    "Maui's Hana Highway was first constructed in 1926.",
-    "The island experiences 10 of the world's 14 climate zones.",
-    "Maui is sometimes called the 'Valley Isle' due to the large valley between its volcanoes.",
-    "Maui's Kaanapali Beach was once named America's Best Beach.",
-    "Maui's official flower is the pink lokelani (damask rose).",
-    "The humpback whale sanctuary off Maui is one of the world's best whale watching spots."
-  ];
-  
-  const maxFacts = mauiFunFacts.length;
-  const randFunFacts = Math.floor(Math.random() * maxFacts);
-  
-  const feature5 = document.querySelector(".feature-5");
-  
-  feature5.textContent = mauiFunFacts[randFunFacts];
+  // Days Until Maui
 
-//   Days of Meditation Streak
+  // const mauiVacation = "2025-04-26";
+  // const daysUntilMaui = getDaysUntilEvent(mauiVacation);
+  
+  // const elem = document.querySelector('.daysUntilMaui');
+  
+  // elem.textContent = daysUntilMaui;
+  // elem.setAttribute("datetime", mauiVacation );
+
+  //   Days of Meditation Streak
 
 const startDate = "2025-01-01";
 const daysOfMeditation = getDayStreak(startDate);
@@ -256,5 +240,30 @@ const elem = document.querySelector('.streakOfDays');
 elem.textContent = daysOfMeditation;
 elem.setAttribute("datetime", daysOfMeditation);
 
+// Maui fun facts
 
+const mauiFunFacts = [
+  "Maui is the second largest Hawaiian island with an area of 727 square miles.",
+  "Haleakalā, Maui's highest peak, stands at 10,023 feet above sea level.",
+  "Maui was named after the demigod Māui in Hawaiian mythology.",
+  "The Road to Hana features over 600 curves and 50+ one-lane bridges.",
+  "Maui is home to more than 30 beaches with white, black, and red sand.",
+  "The Banyan Tree in Lahaina was planted in 1873 and covers nearly an acre.",
+  "Molokini is a crescent-shaped, partially submerged volcanic crater off Maui's shore.",
+  "Maui is visible from the Big Island, Molokai, Lanai, and Kahoolawe.",
+  "The island has over 80 beaches stretching more than 30 miles.",
+  "Maui's Hana Highway was first constructed in 1926.",
+  "The island experiences 10 of the world's 14 climate zones.",
+  "Maui is sometimes called the 'Valley Isle' due to the large valley between its volcanoes.",
+  "Maui's Kaanapali Beach was once named America's Best Beach.",
+  "Maui's official flower is the pink lokelani (damask rose).",
+  "The humpback whale sanctuary off Maui is one of the world's best whale watching spots."
+];
+
+const maxFacts = mauiFunFacts.length;
+const randFunFacts = Math.floor(Math.random() * maxFacts);
+
+const feature5 = document.querySelector(".feature-5");
+
+feature5.textContent = mauiFunFacts[randFunFacts];
 
