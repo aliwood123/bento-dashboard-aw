@@ -220,15 +220,15 @@ function resizeCanvas() {
 
   // Days Until Maui
 
-  // const mauiVacation = "2025-04-26";
-  // const daysUntilMaui = getDaysUntilEvent(mauiVacation);
+  const mauiVacation = "2025-04-26";
+  const daysUntilMaui = getDaysUntilEvent(mauiVacation);
   
-  // const elem = document.querySelector('.daysUntilMaui');
+  const elem = document.querySelector('.daysUntilMaui');
   
-  // elem.textContent = daysUntilMaui;
-  // elem.setAttribute("datetime", mauiVacation );
+  elem.textContent = daysUntilMaui;
+  elem.setAttribute("datetime", mauiVacation );
 
-  //   Days of Meditation Streak
+    // Days of Meditation Streak
 
 const startDate = "2025-01-01";
 const daysOfMeditation = getDayStreak(startDate);
