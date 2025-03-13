@@ -218,15 +218,16 @@ function resizeCanvas() {
   context.scale(resolution, resolution);
 }
 
+
   // Days Until Maui
 
   const mauiVacation = "2025-04-26";
   const daysUntilMaui = getDaysUntilEvent(mauiVacation);
   
-  const elem = document.querySelector('.daysUntilMaui');
+  const mauiElem = document.querySelector('.daysUntilMaui');
   
-  elem.textContent = daysUntilMaui;
-  elem.setAttribute("datetime", mauiVacation );
+  mauiElem.textContent = daysUntilMaui;
+  mauiElem.setAttribute("datetime", mauiVacation);
 
     // Days of Meditation Streak
 
